@@ -9,6 +9,9 @@ gem 'logger'
 gem 'base64'
 gem 'ostruct'
 
+# to avoid polling for changes?
+gem 'wdm', '>= 0.1.0'
+
 # needed for Rake tasks
 gem 'rake'
 gem 'csv'
